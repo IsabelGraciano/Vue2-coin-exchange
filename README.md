@@ -1,5 +1,12 @@
 # exchange-project
 
+## Deployed project:
+https://coin-exchange-vue2.netlify.app/
+
+## Result
+![](src/assets/result1.png)
+![](src/assets/result2.png)
+
 ## Project setup
 ```
 npm install
