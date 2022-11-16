@@ -25,6 +25,8 @@ export default {
     created () {
         this.isLoading = true;
         api.getAssets().then(assets => (this.assets = assets)).finally(() => this.isLoading = false)
+        const html = document.documentElement // returns the html tag
+        html.setAttribute('lang', 'en-US')
     }
 }
 </script>
